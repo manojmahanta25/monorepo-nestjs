@@ -2,7 +2,10 @@
   "name": "offsight-monorepo",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "authentication": "nx serve authentication",
+    "authentication:build": "nx build authentication"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.0.0",
